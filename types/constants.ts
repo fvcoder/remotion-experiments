@@ -9,7 +9,8 @@ export const defaultMyCompProps: z.infer<typeof CompositionProps> = {
   title: "Next.js and Remotion",
 };
 
-export const DURATION_IN_FRAMES = 200;
-export const VIDEO_WIDTH = 1280;
-export const VIDEO_HEIGHT = 720;
+export const DURATION_IN_SECONDS = 30;
+export const VIDEO_WIDTH = 1152;
+export const VIDEO_HEIGHT = 864;
 export const VIDEO_FPS = 30;
+export const DURATION_IN_FRAMES = DURATION_IN_SECONDS * VIDEO_FPS;

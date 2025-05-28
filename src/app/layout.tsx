@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bg-background">{children}</body>
+    <html lang="es" className="size-full">
+      <body className="bg-black size-full">{children}</body>
     </html>
   );
 }
