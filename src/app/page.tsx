@@ -39,6 +39,7 @@ const Home: NextPage = () => {
               width: "auto",
               height: "100%",
             }}
+            controls
             autoPlay
           />
       </div>
