@@ -3,7 +3,7 @@ import { AbsoluteFill, Easing, Img, interpolate, Sequence, staticFile, useCurren
 function Images() {
     const frame = useCurrentFrame();
     const { width } = useVideoConfig();
-    const opacity = interpolate(frame, [0, 10], [0, 1], {
+    const opacity = interpolate(frame, [0, 10, 340, 350], [0, 1, 1, 0], {
         easing: Easing.bezier(0.33, 1, 0.68, 1),
         extrapolateLeft: "clamp",
         extrapolateRight: "clamp",
